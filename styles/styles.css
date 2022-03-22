@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto';
+}
+/*Menu Superior*/
+nav{
+    width: 100%;
+    background-color:darkolivegreen;
+}
+#menu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+#menu .lista{
+    display: inline-block;
+}
+#menu .listaR{
+    float: right;
+}
+.lista a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 38px 80px;
+    display: block;
+}
+#logo{
+    width: 95px;
+    height: 80px;
+    margin: 5px;
+}
+.lista a:hover{
+    background-color: white;
+    color: black;
+}
+.trMenu .nombreEmpresa{
+    color: white;
+    padding: 0px 40px;
+    font-size: 50px;
+}
+
+/*Tabla*/
+
+.Tabla3x3{
+    background-color: white;
+    margin: 30px auto;
+    width: 80vw;
+    border-collapse: collapse;
+}
+.imagTabla{
+    width: 500px;
+}
+thead{
+    background-color: darkolivegreen;
+    
+    font-size: 40px;
+    color: white;
+}
+.tituloTabla{
+    /*
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+    */
+    text-align: center;
+    color: darkolivegreen;
+    font-size: 20px;
+}
+td{
+    text-align: center;
+}
+/*
+.imagCentro{
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+}
+
+.tituloTabla:hover{
+    background-color:darkolivegreen;
+    color: white;
+}
+
+.MSI:hover{
+    background-color: solid rgba(0, 0, 0, 50);
+}
+*/
+
+Footer{
+    background-color:darkolivegreen;
+    color: white;
+    width: 100%;
+    margin: 50px auto;
+
+}
+#tFooter{
+    width: 40vw;
+    margin: auto;
+}
+#imagFooter{
+    width: 200px;
+}
+#contactos li{
+    list-style: none;
+}
+
+#rSociales li{
+    list-style: none;
+
+}
+
+
+/* Pagina Compra */
+
+main h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+.cantCompu{
+    width: 1000px;
+    height: 150px;
+    background-color: white;
+    border: 2px solid;
+    margin: 20px auto;
+    padding: 50px;
+    text-align: center;
+}
+#btnCantCompu{
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    border-color: rgb(218, 218, 218);
+    font-size: large;
+    margin: 20px;
+    padding: 5px 20px;
+}
+
+.contenedor{
+    width: 500px;
+    height: 600px; 
+    background-color: white;
+    border: 2px solid;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    visibility: hidden;
+    display: none;
+}
+.contenedor img{
+    width: 200px;
+}
+.contenedor input{
+    margin: 5px auto 20px;
+    width: 300px;
+}
+
+#btnOtraCant{
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    border-color: rgb(218, 218, 218);
+    font-size: large;
+    margin: 20px;
+    padding: 5px 20px;
+}

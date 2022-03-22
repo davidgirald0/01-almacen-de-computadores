@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li class="lista">
+                    <table class="TMenu">
+                        <tr class="trMenu">
+                            <td><img id="logo" src="https://thumbs.dreamstime.com/b/s%C3%ADmbolo-logo-design-del-icono-equipo-de-escritorio-118320008.jpg" alt="Empresa"></td>
+                            <td class="nombreEmpresa">TecnoLaptop</td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="lista listaR"><a href="../index.html">Home</a></li>
+                <li class="lista listaR"><a href="./compra.html">Compra</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Almacén de computadores</h1>
+        <div class="cantCompu" style="visibility: visible; display:block;">
+                <label for="">Cantidad de computadores comprados: </label>
+                <input id="compComprados" type="number" value=""><br>
+                <button id="btnCantCompu">Calcular</button>
+        </div>
+        <br>
+        <div class="contenedor">
+            <h3>Orden de compra</h3>
+            <img src="https://thumbs.dreamstime.com/b/s%C3%ADmbolo-logo-design-del-icono-equipo-de-escritorio-118320008.jpg" alt=""><br>
+            <label for="">Valor de la compra:</label><br>
+            <input id="valCompra" type="number" value=""><br>
+            <label for="">Valor de descuento:</label><br>
+            <input id="valDesc" type="text" value=""><br>
+            <label for="">Total:</label><br>
+            <input id="total" type="number" value=""><br>
+            <label id="infoDescuento" for="" style="color: black;"></label><br><br>
+            <button id="btnOtraCant">Otra cantidad</button>
+        </div>
+    </main>
+
+    <footer>
+        <table id="tFooter">
+            <td>
+                <div >
+                    <img id="imagFooter" src="https://thumbs.dreamstime.com/b/s%C3%ADmbolo-logo-design-del-icono-equipo-de-escritorio-118320008.jpg" alt="">
+                </div>
+            </td>
+            <td>
+                <div id="contactos">
+                    <ul>
+                        <h3>Contactanos</h3>
+                        <li>E-mail: contacto@TecnoLaptop.com</li>
+                        <li>Celular: (+57) 3023186572</li>
+                        <li>Calle 82 #56-18, Viviendas del sur</li>
+                        <li>Itagüí, Antioquía</li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                <div id="rSociales">
+                    <ul>
+                        <h3>Redes Sociales</h3>
+                        <li>Intagram: @TecnoLaptop</li>
+                        <li>Facebook: @TecnoLaptop</li>
+                    </ul>
+                </div>
+            </td>
+        </table>
+    </footer>
+
+
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
